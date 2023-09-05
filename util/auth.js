@@ -15,7 +15,7 @@ async function authenticate(mode, email, password) {
 }
 
 export async function createUser(email, password) {
-  await authenticate('signup', email, password);
+  await authenticate('signUp', email, password);
 }
 
 export async function login(email, password) {
